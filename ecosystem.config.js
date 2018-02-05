@@ -6,7 +6,7 @@ module.exports = {
     deploy: {
         production: {
             user: 'ubuntu',
-            host: 'ec2-54-210-251-249.compute-1.amazonaws.com',
+            host: 'ec2-54-197-201-186.compute-1.amazonaws.com',
             key: '~/.ssh/aws-demo.pem',
             ref: 'origin/master',
             repo: 'https://github.com/itpreneur/node.git',
